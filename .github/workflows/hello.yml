@@ -9,4 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
   steps:
-      runs-on: echo "Hello World"
+    -  name: start
+       run: echo "Hello World"
