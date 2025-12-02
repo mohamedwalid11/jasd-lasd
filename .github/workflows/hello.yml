@@ -8,6 +8,6 @@ jobs:
   test-job:
     runs-on: ubuntu-latest
 
-  steps:
-    -  name: start
-       run: echo "Hello World"
+    steps:
+      - name: start
+        run: echo "Hello World"
